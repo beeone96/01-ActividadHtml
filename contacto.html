@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-color: beige;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <h1>Mi primera web</h1>
+            <a href="index.html">Index</a>
+            <a href="contenidos.html">Contenidos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <hr>
+    <h2>Contacteme aquí.</h2>
+    <form action="index.html" method="get">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="bio">Biografía:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="40" required></textarea><br><br>
+        
+        <label for="age">Edad:</label><br>
+        <select id="age" name="age" required>
+            <option value="mayor_de_edad">Mayor de edad</option>
+            <option value="adulto">Adulto</option>
+            <option value="mayor_de_65">Mayor de 65 años</option>
+        </select><br><br>
+       
+        <input type="submit" value="Enviar">
+        <a href="index.html"><input type="button" value="Index"></a>
+    </form>
+</body>
+</html>
